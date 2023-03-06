@@ -3,6 +3,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -164,6 +168,19 @@ body {
   opacity: 1;
 }
 
+.main-link-outline {
+  border-color: #fff;
+  background-color: transparent;
+  color: #fff;
+}
+
+.main-link-outline:hover {
+  border-color: transparent;
+  background-color: #de2e32;
+  color: #fff;
+
+}
+
 
 
 /* HERO */
@@ -280,6 +297,33 @@ body {
   display: flex;
   justify-content: center;
 
+}
+
+/* CTA */
+.cta-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #0eb4c1;
+  color: #fff;
+}
+
+.cta-heading {
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.cta-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-links-item:not(:last-child) {
+  margin-right: 40px;
 }
 
 /* FOOTER */
